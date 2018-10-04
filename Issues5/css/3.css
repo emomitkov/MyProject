@@ -1,0 +1,39 @@
+body{
+	padding-right: 5%; 
+}
+.container{
+	width: 90%;
+	height: auto;
+	background-color: #343638;
+	border-radius: 10px;
+	padding: 20px;
+}
+table{
+	width: 100%;
+}
+td{
+	width: 20%;
+}
+tr{
+	border-top: 2px solid black;
+}
+hr{
+	  border: 0;
+  height: 0;
+  box-shadow: 0 0 10px 1px black;
+}
+.white{
+	color:white;
+}
+.gray{
+	color:gray;
+}
+.yewoll{
+	color: #fffb28;
+}
+button{
+	width: auto;
+	height: 40px;
+	background-color: transparent;
+	border:none;
+}

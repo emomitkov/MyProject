@@ -1,0 +1,19 @@
+body{
+	background-color: white;
+}
+h2,h3{
+	font-family: Consolas, sans-serif;
+	color: #0094ff;
+}@font-face{
+	font-family: Edwardian Script ITC;
+    src: url("fonts/ITCEDSCR.TTF");
+}
+#Edwardian{
+	font-size:50px;
+	font-family:Edwardian Script ITC;
+}
+p{
+	font-family: Consolas, sans-serif;
+	color: #0094ff;
+	font-size: 20px;	
+}

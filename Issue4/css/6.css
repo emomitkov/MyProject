@@ -1,0 +1,24 @@
+.container {
+    width: 100%;
+    position: absolute;
+    background-color: red;
+    border-radius: 6rem;
+    margin: 0;
+    display: table;
+    }
+
+.nested {
+    width: 94%;
+    height: auto;
+    background-color: black;
+    float: left;
+    position: relative;
+    vertical-align: middle;
+    border: 2px solid red;
+    border-radius: 6rem;
+    margin: 0;
+}
+
+.first  {
+    width: 100%;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Table 2</title>
+		<style>
+			#table2,td,tr{
+ 			   border: 3px ridge #e0e1e2;
+ 			   border-collapse: collapse;
+ 			   padding: 0px;
+ 			   margin:0px;
+			}
+			td{
+				width:20%;
+			}
+			.right{
+				text-align: right;
+			}
+			.center{
+				text-align: center;
+			}
+			.left{
+				text-align: left;
+			}
+			.bottom-right{
+					text-align: right;
+					vertical-align: bottom;
+			}
+
+		</style>
+	<head>
+	<body>
+		<table id="table2">
+			<tr>
+				<td colspan="3">Title goes here</td>
+				<td class="center">A</td>
+				<td class="right">B</td>
+			</tr>
+			<tr>
+				<td rowspan="3" class="left">C</td>
+				<td class="center">D</td>
+				<td class="center">E</td>
+				<td class="center">F</td>
+				<td class="right">G</td>
+			</tr>
+			<tr>
+				<td class="center">H</td>
+				<td class="center" colspan="2">I</td>
+				<td class="bottom-right" rowspan="2">J</td>
+			</tr>
+			<tr>
+				<td class="center">K</td>
+				<td class="center">L</td>
+				<td class="center">M</td>
+			</tr>
+			<tr>
+				<td class="right">N</td>
+				<td class="center" colspan="4">O</td>
+			</tr>
+		</table>
+	</body>
+</html>

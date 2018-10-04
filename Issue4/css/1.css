@@ -1,0 +1,56 @@
+div{
+	background-color: #424549;
+	padding: 2px;
+	width: 60%;
+	height: auto;
+}
+#myParagraph{
+	color: #c2c4c6;
+	font-family: Verdana, sans-serif;
+	font-size: 15px;
+}
+table{
+	width:100%;
+	border-collapse: collapse;
+
+}
+tr{
+	border-collapse: collapse;
+}
+td{
+	border-collapse: collapse;
+	padding: 1%;
+}
+span{
+	font-family: Verdana, sans-serif;
+	font-size: 13px;
+}
+.left{
+
+	vertical-align: top;
+	text-align: left;
+}
+#white{
+	color:white;
+	font-size: 13px;
+	font-family: Verdana, sans-serif;
+}
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #28ff65;
+    border-radius: 50%;
+    display: inline-block;
+}
+#yellow{
+	color: #fffdce;
+}
+#red{
+	color: red;
+}
+#grey{
+	color: #c2c4c6;
+}
+#orange{
+	color:orange;
+}

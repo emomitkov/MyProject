@@ -1,0 +1,90 @@
+
+body{
+    background-color: #004e59;
+    font-family: Verdana;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #004e59;
+}
+
+li {
+    float: left;
+    background-color: #7ea4ad;
+    border-left: 1px solid #555;
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #555;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #3fb6ae;
+}
+li a.active {
+    background-color: #004e59;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #3fb6ae;
+    color: white;
+}
+.container{
+    width: 100%;
+}
+.left{
+    vertical-align: top;
+    width: 50%;
+    display: inline-block;
+    padding: 5px;
+}
+.left1{
+    width: 60%;
+    display: inline-block;
+    padding: 5px;
+}
+.right{
+    width: 48%;
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+    vertical-align: top;
+}
+#div1{
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: #004e59;
+    border-bottom: 1px solid black;
+}
+#div1:hover{
+    background-color: #3fb6ae;
+}
+#div2{
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: #3fb6ae;   
+}
+#div2:hover{
+    background-color: #004e59;
+}
+#div3{
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: #004e59;   
+}
+#div3:hover{
+    background-color: #3fb6ae;
+}

@@ -1,0 +1,57 @@
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#e799fc), to(#290433)) fixed;
+  padding: 20px;
+}
+}@font-face{
+	font-family: Edwardian Script ITC;
+    src: url("fonts/ITCEDSCR.TTF");
+}
+#Edwardian{
+	font-size:50px;
+	font-family:Edwardian Script ITC;
+	color:white;
+	text-shadow: 2px 2px #f756e9;
+}
+table{
+	width: 100%;
+	height: auto;
+}
+td{
+	width:auto;
+}
+.right{
+	text-align: right;
+	color:white;
+}
+.left{
+	text-align:left;
+}
+#input{
+	background-color: #a449bc;
+	color:white;
+	border:none;
+	border-radius: 5px;
+}
+div{
+	border:2px solid black;
+	border-radius: 5px;
+	padding: 7px;
+	width: 95%;
+	color: white;
+	margin: 5px;
+}
+#li{
+	display: inline-block;
+	margin: 5px;
+	color: white;
+}
+#small{
+	font-size:13px;
+}
+#pink{
+	color: pink;
+}
+.center{
+	text-align: center;
+	color:white;
+}

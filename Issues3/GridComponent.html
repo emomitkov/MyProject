@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<form method="get">
+		<table border="1" bordercolor="grey"id="table4">
+			<tr>
+				<td id="grey" class="left" colspan="6">Drag a column header and drop it here to group by that column.</td>
+			</tr>
+			<tr>
+				<td id="grey" class="left">ProductID</td>
+				<td id="grey" class="left">Product name</td>
+				<td id="grey" class="left">Unit price</td>
+				<td id="grey" class="left">Quantity per unit</td>
+				<td id="grey" class="left">Units in stock</td>
+				<td id="grey" class="left">Discontinued</td>
+			</tr>
+			<tr>
+				<td id="lightblue" class="left"><input type="text" name="1" size="1"/></td>
+				<td id="lightblue" class="left"><input type="text" name="1" size="6"/></td>
+				<td id="lightblue" class="left"><input type="text" name="1" size="4"/><input type="button" name="button1" value="Δ"></td>
+				<td id="lightblue" class="left"><input type="text" name="1" size="6"/></td>
+				<td id="lightblue" class="left"><input type="text" name="1" size="2"/><input type="button" name="button1" value="Δ"></td>
+				<td id="lightblue" class="left"><input type="checkbox" id="cb1" name="cb"/><input type="button" name="button1" value="Δ"></td>
+			</tr>
+			<tr>
+				<td class="left">1</td>
+				<td class="left">Chai</td>
+				<td class="left">&pound;18.00</td>
+				<td class="left">10 boxes x 20 bags</td>
+				<td class="left">39</td>
+				<td class="left"><input type="checkbox" id="cb1" name="cb"/>
+				</td>
+			</tr>
+			<tr>
+				<td class="left">2</td>
+				<td class="left">Chang</td>
+				<td class="left">&pound;19.00</td>
+				<td class="left">24-12 oz bottles</td>
+				<td class="left">17</td>
+				<td class="left"><input type="checkbox" id="cb1" name="cb"/>
+				</td>
+			</tr>			
+			<tr>
+				<td class="left">3</td>
+				<td class="left">Aniseed Syrup</td>
+				<td class="left">&pound;10.00</td>
+				<td class="left">12 - 550 ml bottles</td>
+				<td class="left">13</td>
+				<td class="left"><input type="checkbox" id="cb1" name="cb"/>
+				</td>
+			</tr>			
+			<tr>
+				<td class="left">4</td>
+				<td class="left">Chef Anton's Cajun Seasoning</td>
+				<td class="left">&pound;22.00</td>
+				<td class="left">48 - 6 oz jars</td>
+				<td class="left">53</td>
+				<td class="left"><input type="checkbox" id="cb1" name="cb"/>
+				</td>
+			</tr>			
+			<tr>
+				<td class="left">5</td>
+				<td class="left">Chef Anton's Gumbo Mix</td>
+				<td class="left">&pound;21.35</td>
+				<td class="left">36 boxes</td>
+				<td class="left">0</td>
+				<td class="left"><input type="checkbox" id="cb1" name="cb"/>
+				</td>
+			</tr>			
+			<tr>
+				<td class="left">6</td>
+				<td class="left">Grandma's Boysenberry Spread</td>
+				<td class="left">&pound;25.00</td>
+				<td class="left">12 - 8 oz jars</td>
+				<td class="left">120</td>
+				<td class="left"><input type="checkbox" id="cb1" name="cb"/>
+				</td>
+			</tr>			
+			<tr>
+				<td class="left">7</td>
+				<td class="left">Uncle Bob's Organic Dried Pears</td>
+				<td class="left">&pound;30.00</td>
+				<td class="left">12 - 1 lb pkgs.</td>
+				<td class="left">15</td>
+				<td class="left"><input type="checkbox" id="cb1" name="cb"/>
+				</td>
+			</tr>			
+			<tr>
+				<td class="left">8</td>
+				<td class="left">Northwoods Cranberry DSauce</td>
+				<td class="left">&pound;40.00</td>
+				<td class="left">12 - 12 oz jars</td>
+				<td class="left">6</td>
+				<td class="left"><input type="checkbox" id="cb1" name="cb"/>
+				</td>
+			</tr>			
+			<tr>
+				<td class="left">9</td>
+				<td class="left">Mishi Kobe Niku</td>
+				<td class="left">&pound;97.00</td>
+				<td class="left">18 - 500 g pkgs.</td>
+				<td class="left">29</td>
+				<td class="left"><input type="checkbox" id="cb1" name="cb"/>
+				</td>
+			</tr>			
+			<tr>
+				<td class="left">10</td>
+				<td class="left">Ikura</td>
+				<td class="left">&pound;31.00</td>
+				<td class="left">12 - 200 ml jars</td>
+				<td class="left">31</td>
+				<td class="left"><input type="checkbox" id="cb1" name="cb"/>
+				</td>
+			</tr>
+			<tr>
+				<td id="lightblue" class="left" colspan="4">
+					<input type="button" name="button1" value="⇤"/>
+					<input type="button" name="button1" value="⇦"/> 1 2 3 4 5 6 7 8 9 10 ...
+					<input type="button" name="button1" value="⇨"/>
+					<input type="button" name="button1" value="⇥"/>
+					Page size: 
+					<select name="number">
+					    <option value="10" selected>10</option>
+					    <option value="9">9</option>
+					    <option value="8">8</option>
+					    <option value="7">7</option>
+					    <option value="6">6</option>
+					    <option value="5">5</option>
+					    <option value="4">4</option>
+					    <option value="3">3</option>
+					    <option value="2">2</option>
+					    <option value="1">1</option>
+				  </select>
+
+				</td>
+				<td id="lightblue" class="left" colspan="2">335104 items in 33511 pages</td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>

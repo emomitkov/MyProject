@@ -1,0 +1,128 @@
+
+body{
+	cursor: pointer;
+}
+table{
+	width:auto;
+	border-collapse: collapse;
+
+}
+tr{
+	border-collapse: collapse;
+	width: auto;
+
+}
+td{
+	padding-right: 6px;
+	padding-left: 5px;
+}
+@font-face{
+	font-family: Calculator;
+    src: url("fonts/Calculator.TTF");
+}
+#div{
+  background: linear-gradient(#e3f9f6, #f2fcfb);
+  width:100%;
+  padding: 15px;
+  height: auto;
+  text-align: center;
+  padding-top: 10px;
+}
+#table1{
+	margin-top: 10px;
+	margin: 2px;
+	margin-left:5px; 
+	width: 95%;
+	height: 5%;
+	padding-right: 20px;
+	text-align: left;
+	color:black;
+	font-size: 15px;
+	border:1px solid black;
+	border-radius: 80px;
+}
+.center{
+	text-align: center;
+}
+#textbox{
+	width: 95%;
+	height: 5%;
+	padding-top: 30px;
+	text-align: right;
+	color:black;
+	font-size: 30px;
+	vertical-align: bottom;
+	font-family: Calculator;
+	background: linear-gradient(#eafcfa, #f9fffe);
+}
+.grey{
+	background-color: #eaeaea;
+}
+.right{
+	text-align: right;
+}
+#grey{
+	color: grey;
+	cursor: pointer;
+}
+#td1{
+	border:1px solid black;
+	margin-left: 40px;
+}
+#button{
+	width:42px;
+	height: 30px;
+	text-align: center;
+}
+#button:hover{
+	border-color: orange;
+	background-color: yellow;
+	cursor: pointer;
+}
+#button2{
+	width:42px;
+	height: 60px;
+	text-align: center;
+
+}
+#button2:hover{
+	border-color: orange;
+	background-color: yellow;
+	cursor: pointer;
+}
+#button3{
+	width:94px;
+	height: 30px;
+	text-align: center;
+
+}
+#button3:hover{
+	border-color: orange;
+	background-color: yellow;
+	cursor: pointer;
+}
+#button4{
+	width:42px;
+	height: 30px;
+	text-align: center;
+	color:grey;
+}
+#button4:hover{
+	border-color: orange;
+	background-color: yellow;
+	cursor: pointer;
+}
+#pointer{
+	cursor: pointer;
+}
+#button5{
+	width:42px;
+	height: 30px;
+	text-align: center;
+	background-color:transparent;
+}
+#button5:hover{
+	border-color: orange;
+	background-color: yellow;
+	cursor: pointer;
+}

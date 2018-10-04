@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<style>
+		table{
+			background: #d7e2f4;
+			width:200px;
+			height:auto;
+ 			border: 3px ridge #82c8ff;
+ 			padding: 0px;
+ 			margin:0px;
+
+		}
+		td{
+			width:20%;
+		}
+		input{
+			width:100%;
+		}
+		.btn{
+			   background:#24b4de;
+			   color:#fff;
+			   font-size:26px;
+			   cursor: pointer;
+			   outline:none;
+			   border-bottom:3px solid #399cb9;
+		}
+		.res{
+			   width:230px;
+			   height:40px;
+			   font-size:26px;
+			   margin:10px auto;
+			   text-align: right;
+			   border:0;
+			   background:#3b3535;
+			   color:#fff;
+
+		}
+	</style>
+</head>
+<body>
+	<form name="calculform" method="get">
+		<table>
+			<tr>
+				<td colspan="4"><input class="res" type="text" name="result"/></td>
+			</tr>
+			<tr>
+				<td><input class="btn" type="button" name="num1" value="1"/></td>
+				<td><input class="btn" type="button" name="num2" value="2" /></td>
+				<td><input class="btn" type="button" name="num3" value="3"/></td>
+				<td><input class="btn" type="button" name="+" value="+"/></td>
+			</tr>
+			<tr>
+				<td><input class="btn" type="button" name="num4" value="4"/></td>
+				<td><input class="btn" type="button" name="num5" value="5"/></td>
+				<td><input class="btn" type="button" name="num6" value="6"/></td>
+				<td><input class="btn" type="button" name="-" value="-"/></td>
+			</tr>
+			<tr>
+				<td><input class="btn" type="button" name="num7" value="7"/></td>
+				<td><input class="btn" type="button" name="num8" value="8"/></td>
+				<td><input class="btn" type="button" name="num9" value="9"/></td>
+				<td><input class="btn" type="button" name="*" value="*"/></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input class="btn" type="button" name="num0" value="0"/></td>
+				<td><input class="btn" type="button" name="." value="."/></td>
+				<td><input class="btn" type="button" name="/" value="/"/></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td colspan="2"><input class="btn" type="button" name="=" value="="/></td>
+				<td><input class="btn" type="button" name="C" value="C"/></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

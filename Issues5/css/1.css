@@ -1,0 +1,15 @@
+#gray{
+	color: gray;
+}
+.showMe{
+	display: none;
+}
+.hoverMe{
+	cursor: pointer;
+}
+.hoverMe:hover .showMe{
+	display: block;
+}
+ul{
+	list-style-type: none;
+}

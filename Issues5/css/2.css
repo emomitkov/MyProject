@@ -1,0 +1,41 @@
+
+body{
+	padding-left: 5%;
+	padding-right: 5%; 
+}
+.container{
+	width: 100%;
+	height: auto;
+	background-color: #d0d4db;
+	border-radius: 20px;
+	padding: 20px;
+}
+.musicCont{
+	border:1px solid gray;
+	background-color: white;
+	width: 100%;
+	height: auto;
+	padding: 5px;
+	margin-top: 40px;
+}
+.td1{
+	width: 30%;
+	height: auto;
+}
+.td2{
+	width: 70%;
+	height: auto;
+	vertical-align: top;
+}
+button{
+	border: none;
+	background-color: red;
+}
+.right{
+	text-align: right;
+	vertical-align: top;
+
+}
+span{
+	color: white;
+}

@@ -1,0 +1,135 @@
+@font-face {
+    font-family: Poiret One;
+    src: url(fonts/Poiret One/PoiretOne-Regular.ttf);
+}
+@font-face {
+    font-family: Lato;
+    src: url(fonts/Lato/Lato-Black.ttf);
+    src: url(fonts/Lato/Lato-BlackItalic.ttf);
+    src: url(fonts/Lato/Lato-Bold.ttf);
+    src: url(fonts/Lato/Lato-BoldItalic.ttf);
+    src: url(fonts/Lato/Lato-Hairline.ttf);
+    src: url(fonts/Lato/Lato-HairlineItalic.ttf);
+    src: url(fonts/Lato/Lato-Italic.ttf);
+    src: url(fonts/Lato/Lato-Light.ttf);
+    src: url(fonts/Lato/Lato-LightItalic.ttf);
+    src: url(fonts/Lato/Lato-Regular.ttf);
+}
+html {
+  scroll-behavior: smooth;
+}
+h1, h2, h3, h4, h5, h6, .nav, .navbar {
+font-family: 'Poiret One', cursive;
+}
+body {
+font-family: 'Lato', cursive;
+scroll-behavior: smooth;
+}
+.myphoto-section {
+	min-height: 600px;
+	padding-left: 5%;
+	padding-top: 2%;
+}
+.myphoto-section-contact {
+    min-height: 730px;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+.bg-myphoto-dark {
+background-color: #504747;
+color: white;
+}
+.bg-myphoto-light {
+background-color: white;
+color: #504747;
+}
+.bg-myphoto-welcome {
+background-image: url("../images/skyline.jpg");
+background-size: cover;
+color: #504747;
+}
+.bg-myphoto-dark .nav-tabs a{
+color: white;
+}
+.navbar-myphoto {
+background-color: #2A2A2C;
+border-color: black;
+border-radius: 0;
+margin-bottom: 0px;
+}
+.navbar-myphoto.navbar-brand {
+color: white;
+font-weight: bold;
+}
+.navbar-myphoto.navbar-nav > li > a {
+color: white;
+}
+.navbar-myphoto.navbar-nav > li > a:hover {
+background-color: #2A2A2C;
+color: gray;
+}
+.navbar-myphoto.navbar-nav > li > a:focus {
+background-color: #504747;
+color: gray;
+}
+.navbar-myphoto.navbar-nav > li.active > a {
+background-color: #504747;
+color: gray;
+}
+.navbar-myphoto.dropdown-menu {
+background-color: #504747;
+border-color: black;
+}
+.navbar-myphoto.dropdown-menu > a {
+color: white;
+background-color: #504747;
+}
+.navbar-myphoto.dropdown-menu > a:hover {
+color: gray;
+background-color: #504747;
+}
+.navbar-myphoto.dropdown-menu > a:focus {
+color: gray;
+background-color: #504747;
+}
+.navbar-myphoto.dropdown-menu > .active > a:focus {
+color: gray;
+background-color: #504747;
+}
+.navbar-myphoto > .navbar-toggler {
+color: white;
+}
+.nav-pills > .active > a, .nav-pills > .active > a:hover {
+background-color: grey;
+}
+.navbar-myphoto a{
+    color: white;
+}
+.dropdown-menu{
+    background-color: #504747; 
+}
+.nav-pills .nav-item.open .nav-link, 
+.nav-pills 
+.nav-item.open .nav-link:focus, 
+.nav-pills .nav-item.open .nav-link:hover, 
+.nav-pills .nav-link.active, .nav-pills .nav-link.active:focus, 
+.nav-pills .nav-link.active:hover{
+    background-color: grey;
+}
+.alert-myphoto
+{
+background-color: #a94342;
+color: white;
+position: fixed;
+margin-top: 4em;
+width: 90%;
+margin-left: 4em;
+z-index: 3000;
+}
+footer p {
+display: inline;
+margin-left: 20px;
+}
+footer a {
+color: inherit ;
+}
